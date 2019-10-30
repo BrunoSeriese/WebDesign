@@ -74,9 +74,41 @@ $("#userinter").click(function(){
    $(".popup--3").toggleClass("opacity-toggle");
  $(".popup--3").toggleClass("highz");
 
+});
 
 
 
+$("#list1").click(function(){
+$("#icon-1").toggleClass("turn");
+$("#list1").toggleClass("header-enlarge");
+$("#kontakt").toggleClass("no-radius");
+var imgWidth = $('#kontakt').outerWidth();
+$('#drop-1').outerWidth(imgWidth);
+$("#drop-1").toggleClass("dropdown-roll");
+$("#drop-1").toggleClass("highz");
+});
 
+
+$("#list2").click(function(){
+
+
+$("#icon-2").toggleClass("turn");
+$("#list2").toggleClass("header-enlarge");
+$("#projekt").toggleClass("no-radius");
+var imgWidth = $('#projekt').outerWidth();
+$('#drop-2').outerWidth(imgWidth);
+$("#drop-2").toggleClass("dropdown-roll");
+$("#drop-2").toggleClass("highz");
+});
+
+
+$("#list3").click(function(){
+$("#icon-3").toggleClass("turn");
+$("#list3").toggleClass("header-enlarge");
+$("#info").toggleClass("no-radius");
+var imgWidth = $('#info').outerWidth();
+$('#drop-3').outerWidth(imgWidth);
+$("#drop-3").toggleClass("dropdown-roll");
+$("#drop-3").toggleClass("highz");
 
 });
