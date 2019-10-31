@@ -284,7 +284,7 @@ html {
       text-align: center; }
       @media (max-width: 37.5em) {
         .popup--2__container-2-half-1 {
-          width: 90vw; } }
+          width: 100%; } }
     .popup--2__container-2-half-2 {
       width: 40%;
       height: 80%;
