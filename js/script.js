@@ -78,7 +78,7 @@ $("#userinter").click(function(){
 
 
 
-$("#list1").click(function(){
+$("#kontakt").click(function(){
 $("#icon-1").toggleClass("turn");
 $("#list1").toggleClass("header-enlarge");
 $("#kontakt").toggleClass("no-radius");
@@ -111,4 +111,29 @@ $('#drop-3').outerWidth(imgWidth);
 $("#drop-3").toggleClass("dropdown-roll");
 $("#drop-3").toggleClass("highz");
 
+});
+
+
+
+
+
+$("#close1").click(function(){
+    if($(".popup--1").css("opacity") == 1){
+  $(".popup--1").toggleClass("opacity-toggle");
+    $(".popup--1").toggleClass("highz");
+}
+});
+
+$("#close2").click(function(){
+  if($(".popup--2").css("opacity") == 1){
+  $(".popup--2").toggleClass("opacity-toggle");
+    $(".popup--2").toggleClass("highz");
+}
+});
+
+$("#close3").click(function(){
+  if($(".popup--3").css("opacity") == 1){
+  $(".popup--3").toggleClass("opacity-toggle");
+    $(".popup--3").toggleClass("highz");
+}
 });
