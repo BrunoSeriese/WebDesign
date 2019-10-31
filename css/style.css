@@ -147,7 +147,7 @@ html {
 
 .highz {
   z-index: 1000 !important;
-  display: inline !important; }
+  display: flex !important; }
 
 .higherz {
   z-index: 1001 !important; }
@@ -173,6 +173,9 @@ html {
   width: 12.43rem; }
   .indented:hover {
     background-color: #3ab1a2; }
+
+.help {
+  padding: .5rem; }
 
 .popup {
   position: fixed;
@@ -276,6 +279,9 @@ html {
       align-items: center;
       justify-content: flex-start;
       text-align: center; }
+      @media (max-width: 37.5em) {
+        .popup--2__container-2-half-1 {
+          width: 90%; } }
     .popup--2__container-2-half-2 {
       width: 40%;
       height: 80%;
@@ -287,6 +293,9 @@ html {
       @media (max-width: 56.25em) {
         .popup--2__main {
           font-size: 2rem; } }
+      @media (max-width: 37.5em) {
+        .popup--2__main {
+          font-size: 1.8rem; } }
   .popup--3 {
     opacity: 0;
     transition: .2s ease-in;
@@ -391,8 +400,9 @@ html {
     @media (max-width: 37.5em) {
       .navbutton__background {
         z-index: 999;
-        height: 85vh;
-        width: 100%; } }
+        height: 60vh;
+        width: 100%;
+        justify-content: center; } }
     .navbutton__background ul {
       display: flex;
       flex-direction: column;
@@ -411,6 +421,9 @@ html {
         letter-spacing: 1px;
         padding: 1rem 0;
         cursor: pointer; }
+        @media (max-width: 37.5em) {
+          .navbutton__background ul li {
+            padding: .5rem; } }
         .navbutton__background ul li:hover {
           background-color: #3ab1a2;
           transform: scaleX(1) scaleY(1.05) !important; }
@@ -472,9 +485,11 @@ html {
   position: relative; }
   .header__small {
     display: none !important; }
+    .header__small li {
+      padding: .5rem; }
     @media (max-width: 56.25em) {
       .header__small {
-        display: inline !important; } }
+        display: inline-block !important; } }
   .header__navbar {
     display: flex;
     background-color: transparent;
