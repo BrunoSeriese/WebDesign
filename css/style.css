@@ -183,11 +183,11 @@ html {
   transition: .5s ease-in; }
 
 .highz {
-  z-index: 1000 !important;
+  z-index: 10001 !important;
   display: flex !important; }
 
 .higherz {
-  z-index: 1001 !important; }
+  z-index: 10010 !important; }
 
 .dropdown-roll {
   opacity: 1 !important; }
@@ -419,7 +419,7 @@ html {
     .navbutton {
       top: 3.5rem;
       left: 5rem;
-      z-index: 11999999999999; } }
+      z-index: 10000; } }
   .navbutton--1 {
     width: 3rem;
     height: 3rem;
