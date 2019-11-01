@@ -64,7 +64,7 @@ html {
     .header__number--2 {
       opacity: 0; }
     .header__number--3 {
-      margin-left: .5rem; }
+      margin-left: 0.5rem; }
   .header__fa-icon {
     font-size: 3rem; }
     .header__fa-icon--1 {
@@ -78,9 +78,9 @@ html {
     letter-spacing: 0;
     -webkit-background-clip: text;
     color: white; }
-    @media (max-width: 75em) {
+    @media (max-width: 95em) {
       .header__brand {
-        font-size: 3rem; } }
+        font-size: 5rem; } }
   .header__dropdown {
     font-size: 2rem; }
     .header__dropdown--1 ul {
@@ -88,6 +88,16 @@ html {
       flex-direction: column; }
       .header__dropdown--1 ul li a {
         text-decoration: none; }
+    .header__dropdown--2 ul {
+      display: flex;
+      flex-direction: column;
+      font-size: 1.7rem;
+      color: white; }
+      .header__dropdown--2 ul li {
+        margin-top: 1rem; }
+        .header__dropdown--2 ul li a {
+          text-decoration: none;
+          color: white; }
 
 .no-decor {
   text-decoration: none; }
@@ -141,6 +151,33 @@ html {
   .popup--3__footer {
     font-size: 2rem; }
 
+.infobox {
+  text-align: center; }
+  .infobox__header {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    margin-top: 3rem; }
+  .infobox__list {
+    margin-top: 6rem;
+    list-style: none;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem; }
+    .infobox__list li hr {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      border: 1px solid white;
+      margin-top: .8rem; }
+  .infobox__icon {
+    margin-top: 4rem;
+    color: white; }
+  .infobox__item:not(:last-child) {
+    margin-bottom: 2.5rem; }
+
 .opacity-toggle {
   opacity: 1 !important;
   transition: .5s ease-in; }
@@ -185,15 +222,17 @@ html {
   background-color: #fcfcfc;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-70%, -50%);
   border-radius: 1rem;
   justify-content: space-around;
   transition: .2s ease-in;
   display: flex;
   flex-direction: column; }
-  @media (max-width: 75em) {
+  @media (max-width: 95em) {
     .popup {
-      transform: translate(-30%, -50%); } }
+      transform: translate(-30%, -50%);
+      width: 60rem;
+      height: 43rem; } }
   @media (max-width: 56.25em) {
     .popup {
       width: 50rem;
@@ -294,7 +333,8 @@ html {
     .popup--2__main {
       color: white;
       font-size: 2.5rem;
-      font-weight: bold; }
+      font-weight: bold;
+      margin-left: 3rem; }
       @media (max-width: 56.25em) {
         .popup--2__main {
           font-size: 2rem; } }
@@ -379,7 +419,7 @@ html {
     .navbutton {
       top: 3.5rem;
       left: 5rem;
-      z-index: 11; } }
+      z-index: 11999999999999; } }
   .navbutton--1 {
     width: 3rem;
     height: 3rem;
@@ -391,6 +431,9 @@ html {
     transition: .1s ease-in;
     opacity: 0;
     background-color: #57c7b9; }
+  .navbutton__icons {
+    margin-top: 2rem;
+    color: #0077B5; }
   .navbutton__background {
     font-size: 1rem;
     color: black;
@@ -402,9 +445,7 @@ html {
     top: 15%;
     opacity: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center; }
+    flex-direction: column; }
     @media (max-width: 56.25em) {
       .navbutton__background {
         justify-content: center !important;
@@ -418,7 +459,6 @@ html {
     .navbutton__background ul {
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
       padding-top: 0;
       width: 100%;
       text-align: center;
@@ -429,6 +469,7 @@ html {
       .navbutton__background ul li {
         color: white !important;
         font-size: 2rem;
+        margin-top: 3rem;
         width: 100%;
         letter-spacing: 1px;
         padding: 1rem 0;
@@ -562,6 +603,12 @@ html {
           transform: scale(1); }
         .header__dropdown--1 ul li:not(:last-child) {
           margin-bottom: 1rem; }
+    .header__dropdown--2 ul {
+      margin-top: 2rem; }
+      .header__dropdown--2 ul li:hover {
+        transform: scale(1); }
+      .header__dropdown--2 ul li:not(:last-child) {
+        margin-bottom: 1rem; }
     .header__dropdown--3 {
       border-bottom-right-radius: .5rem; }
   .header__nav-item--2 {
@@ -577,3 +624,16 @@ html {
     transform: translate(-50%, -70%);
     animation: brandfade 1s ease-in;
     opacity: 0; }
+
+.infobox {
+  top: 34.3%;
+  right: 15rem;
+  position: fixed;
+  background-color: #57c7b9;
+  width: 35rem;
+  height: 40rem;
+  z-index: 5;
+  border-radius: .5rem; }
+  @media (max-width: 95em) {
+    .infobox {
+      display: none; } }
