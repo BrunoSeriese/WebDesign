@@ -635,7 +635,7 @@ html {
       @media (max-width: 37.5em) {
         .navbutton__background ul {
           align-items: center;
-          margin-top: 4rem; } }
+          margin-top: 1rem; } }
       .navbutton__background ul li {
         color: white !important;
         font-size: 2rem;
