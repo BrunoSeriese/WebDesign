@@ -636,7 +636,7 @@ html {
         @media (max-width: 37.5em) {
           .navbutton__background ul li {
             padding: .5rem;
-            margin-top: 1rem; } }
+            margin-top: -.5rem; } }
         .navbutton__background ul li:hover {
           background-color: #3ab1a2;
           transform: scaleX(1) scaleY(1.05) !important; }
