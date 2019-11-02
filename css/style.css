@@ -263,57 +263,35 @@ html {
     font-size: 2rem;
     cursor: pointer; }
     .popup__closer--1 {
-      padding-left: 47rem; }
-      @media (max-width: 95em) {
-        .popup__closer--1 {
-          padding-left: 37rem; } }
-      @media (max-width: 56.25em) {
-        .popup__closer--1 {
-          padding-left: 28rem; } }
+      display: none; }
       @media (max-width: 37.5em) {
         .popup__closer--1 {
-          padding-left: 23rem; } }
+          padding-left: 23rem;
+          display: inline; } }
     .popup__closer--2 {
-      padding-left: 61rem;
-      margin-bottom: 25rem; }
+      display: none; }
       @media (max-width: 37.5em) {
         .popup__closer--2 {
-          padding-left: 27rem; } }
+          padding-left: 27rem;
+          display: inline; } }
     .popup__closer--3 {
-      padding-left: 65rem;
-      padding-top: 5rem; }
-      @media (max-width: 95em) {
-        .popup__closer--3 {
-          padding-left: 55rem; } }
-      @media (max-width: 56.25em) {
-        .popup__closer--3 {
-          padding-left: 45rem; } }
+      display: none; }
       @media (max-width: 37.5em) {
         .popup__closer--3 {
-          padding-left: 26rem; } }
+          padding-left: 26rem;
+          display: inline; } }
     .popup__closer--4 {
-      padding-left: 65rem; }
-      @media (max-width: 95em) {
-        .popup__closer--4 {
-          padding-left: 55rem; } }
-      @media (max-width: 56.25em) {
-        .popup__closer--4 {
-          padding-left: 45rem; } }
+      display: none; }
       @media (max-width: 37.5em) {
         .popup__closer--4 {
-          padding-left: 40rem; } }
+          padding-left: 40rem;
+          display: inline; } }
     .popup__closer--6 {
-      margin-left: 59rem; }
-      @media (max-width: 95em) {
-        .popup__closer--6 {
-          margin-left: 55rem; } }
-      @media (max-width: 56.25em) {
-        .popup__closer--6 {
-          margin-bottom: -10rem;
-          margin-left: 42rem; } }
+      display: none; }
       @media (max-width: 37.5em) {
         .popup__closer--6 {
-          margin-left: 40rem; } }
+          margin-left: 40rem;
+          display: inline; } }
   .popup--1 {
     opacity: 0;
     transition: .2s ease-in; }
@@ -376,12 +354,14 @@ html {
       border-right: 2px solid white; }
     .popup--2__main {
       color: white;
+      width: 100%;
       font-size: 2.5rem;
       font-weight: bold;
       margin-left: 3rem; }
       @media (max-width: 56.25em) {
         .popup--2__main {
-          font-size: 2rem; } }
+          font-size: 2rem;
+          padding-left: 2rem; } }
       @media (max-width: 37.5em) {
         .popup--2__main {
           font-size: 1.8rem; } }
@@ -506,13 +486,22 @@ html {
       font-size: 3rem;
       font-weight: bold;
       padding-bottom: 3.5rem;
-      margin-top: -1rem; }
+      margin-top: 2rem; }
     .popup--6__second-heading {
       margin-top: -1rem;
       margin-bottom: 2rem;
       font-weight: bold; }
     .popup--6__list {
-      list-style: none; }
+      list-style: none;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+      padding-left: 20rem; }
+      @media (max-width: 37.5em) {
+        .popup--6__list {
+          width: 100%;
+          padding-left: 10rem; } }
     .popup--6__item:not(:last-child) {
       margin-bottom: 1.2rem; }
   .popup__icon {
@@ -558,6 +547,21 @@ html {
 
 .fa-telegram {
   color: #0077B5; }
+
+.fa-store {
+  margin-right: 1.5rem; }
+
+.fa-html5 {
+  margin-right: 1.5rem; }
+
+.fa-paint-brush {
+  margin-right: 1.5rem; }
+
+.fa-database {
+  margin-right: 1.5rem; }
+
+.fa-node-js {
+  margin-right: 1.5rem; }
 
 .navbutton {
   width: 5rem;
@@ -651,7 +655,7 @@ html {
         @media (max-width: 37.5em) {
           .navbutton__background ul li {
             padding: .5rem;
-            margin-top: -.5rem; } }
+            margin-top: 1rem; } }
         .navbutton__background ul li:hover {
           background-color: #3ab1a2;
           transform: scaleX(1) scaleY(1.05) !important; }
