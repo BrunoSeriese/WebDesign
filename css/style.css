@@ -646,10 +646,6 @@ html {
         letter-spacing: 1px;
         padding: 1rem 0;
         cursor: pointer; }
-        .navbutton__background ul li a {
-          background-color: #3ab1a2;
-          border-radius: 1rem;
-          padding: .5rem; }
         @media (max-width: 95em) {
           .navbutton__background ul li {
             padding: .75rem;
@@ -661,7 +657,11 @@ html {
         @media (max-width: 37.5em) {
           .navbutton__background ul li {
             padding: .5rem;
-            margin-top: 1rem; } }
+            margin-top: 1rem; }
+            .navbutton__background ul li a {
+              background-color: #3ab1a2;
+              border-radius: 1rem;
+              padding: .5rem; } }
         .navbutton__background ul li:hover {
           background-color: #3ab1a2;
           transform: scaleX(1) scaleY(1.05) !important; }
