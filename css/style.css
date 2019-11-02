@@ -39,7 +39,9 @@ html {
   font-size: 62.5%; }
 
 body {
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw; }
 
 .element::-webkit-scrollbar {
   width: 0 !important; }
