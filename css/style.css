@@ -274,7 +274,7 @@ html {
         .popup__closer--1 {
           padding-left: 25rem; } }
     .popup__closer--2 {
-      padding-left: 42rem;
+      padding-left: 61rem;
       margin-bottom: 25rem; }
       @media (max-width: 37.5em) {
         .popup__closer--2 {
@@ -302,10 +302,15 @@ html {
       @media (max-width: 56.25em) {
         .popup__closer--4 {
           padding-left: 40rem; } }
-    @media (max-width: 56.25em) {
-      .popup__closer--6 {
-        margin-bottom: -10rem;
-        margin-left: 42rem; } }
+    .popup__closer--6 {
+      margin-left: 59rem; }
+      @media (max-width: 95em) {
+        .popup__closer--6 {
+          margin-left: 55rem; } }
+      @media (max-width: 56.25em) {
+        .popup__closer--6 {
+          margin-bottom: -10rem;
+          margin-left: 42rem; } }
   .popup--1 {
     opacity: 0;
     transition: .2s ease-in; }
@@ -496,8 +501,11 @@ html {
     justify-content: space-around; }
     .popup--6__main {
       font-size: 3rem;
-      font-weight: bold; }
+      font-weight: bold;
+      padding-bottom: 3.5rem;
+      margin-top: -1rem; }
     .popup--6__second-heading {
+      margin-top: -1rem;
       margin-bottom: 2rem;
       font-weight: bold; }
     .popup--6__list {
@@ -606,7 +614,7 @@ html {
         width: 100%;
         justify-content: center; } }
     .navbutton__background ul {
-      margin-top: -4rem;
+      margin-top: -2rem;
       display: flex;
       flex-direction: column;
       padding-top: 0;
@@ -629,6 +637,10 @@ html {
         letter-spacing: 1px;
         padding: 1rem 0;
         cursor: pointer; }
+        @media (max-width: 95em) {
+          .navbutton__background ul li {
+            padding: .75rem;
+            margin-top: 1.5rem; } }
         @media (max-width: 56.25em) {
           .navbutton__background ul li {
             padding: .5rem;
