@@ -272,13 +272,13 @@ html {
           padding-left: 28rem; } }
       @media (max-width: 37.5em) {
         .popup__closer--1 {
-          padding-left: 25rem; } }
+          padding-left: 23rem; } }
     .popup__closer--2 {
       padding-left: 61rem;
       margin-bottom: 25rem; }
       @media (max-width: 37.5em) {
         .popup__closer--2 {
-          padding-left: 30rem; } }
+          padding-left: 27rem; } }
     .popup__closer--3 {
       padding-left: 65rem;
       padding-top: 5rem; }
@@ -290,7 +290,7 @@ html {
           padding-left: 45rem; } }
       @media (max-width: 37.5em) {
         .popup__closer--3 {
-          padding-left: 30rem; } }
+          padding-left: 26rem; } }
     .popup__closer--4 {
       padding-left: 65rem; }
       @media (max-width: 95em) {
@@ -299,7 +299,7 @@ html {
       @media (max-width: 56.25em) {
         .popup__closer--4 {
           padding-left: 45rem; } }
-      @media (max-width: 56.25em) {
+      @media (max-width: 37.5em) {
         .popup__closer--4 {
           padding-left: 40rem; } }
     .popup__closer--6 {
@@ -311,6 +311,9 @@ html {
         .popup__closer--6 {
           margin-bottom: -10rem;
           margin-left: 42rem; } }
+      @media (max-width: 37.5em) {
+        .popup__closer--6 {
+          margin-left: 40rem; } }
   .popup--1 {
     opacity: 0;
     transition: .2s ease-in; }
