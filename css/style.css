@@ -253,7 +253,7 @@ html {
   background-color: #3ab1a2 !important;
   opacity: 1 !important; }
 
-@media (max-height: 29.5em) {
+@media (max-height: 35.5em) {
   .navbutton__icons {
     transform: scale(0.75) !important;
     margin-bottom: 0; } }
@@ -306,7 +306,7 @@ html {
         .popup__closer--1 {
           padding-left: 23rem;
           display: inline; } }
-      @media (max-height: 29.5em) {
+      @media (max-height: 35.5em) {
         .popup__closer--1 {
           padding-left: 18rem;
           display: inline; } }
@@ -316,7 +316,7 @@ html {
         .popup__closer--2 {
           padding-left: 27rem;
           display: inline; } }
-      @media (max-height: 29.5em) {
+      @media (max-height: 35.5em) {
         .popup__closer--2 {
           padding-left: 22rem;
           display: inline; } }
@@ -326,7 +326,7 @@ html {
         .popup__closer--3 {
           padding-left: 26rem;
           display: inline; } }
-      @media (max-height: 29.5em) {
+      @media (max-height: 35.5em) {
         .popup__closer--3 {
           padding-left: 20rem;
           display: inline; } }
@@ -336,7 +336,7 @@ html {
         .popup__closer--4 {
           padding-left: 40rem;
           display: inline; } }
-      @media (max-height: 29.5em) {
+      @media (max-height: 35.5em) {
         .popup__closer--4 {
           padding-left: 34rem;
           display: inline; } }
@@ -346,7 +346,7 @@ html {
         .popup__closer--6 {
           margin-left: 40rem;
           display: inline; } }
-      @media (max-height: 29.5em) {
+      @media (max-height: 35.5em) {
         .popup__closer--6 {
           padding-left: 30rem;
           display: inline; } }
@@ -702,7 +702,7 @@ html {
           overflow: visible;
           height: 85vh;
           margin-bottom: 9rem; } }
-      @media (max-height: 29.5em) {
+      @media (max-height: 35.5em) {
         .navbutton__background ul {
           transform: scale(0.65) !important; } }
       .navbutton__background ul li {
@@ -730,7 +730,7 @@ html {
               background-color: #3ab1a2;
               border-radius: 1rem;
               padding: .5rem; } }
-        @media (max-height: 29.5em) {
+        @media (max-height: 35.5em) {
           .navbutton__background ul li {
             padding: .5rem;
             margin-top: .2rem; } }
