@@ -343,7 +343,7 @@ html {
           display: inline; } }
       @media (max-width: 25.5em) {
         .popup__closer--6 {
-          padding-left: 34rem;
+          padding-left: 30rem;
           display: inline; } }
   .popup--1 {
     opacity: 0;
