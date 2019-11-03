@@ -645,7 +645,7 @@ html {
     @media (max-width: 37.5em) {
       .navbutton__background {
         z-index: 999;
-        height: 150vh;
+        height: 90vh;
         width: 100%;
         justify-content: center; } }
     .navbutton__background ul {
@@ -655,7 +655,7 @@ html {
       padding-top: 0;
       width: 100%;
       text-align: center;
-      height: 95vh;
+      height: 85vh;
       overflow: hidden; }
       @media (max-width: 56.25em) {
         .navbutton__background ul {
@@ -686,7 +686,8 @@ html {
         @media (max-width: 37.5em) {
           .navbutton__background ul li {
             padding: .5rem;
-            margin-top: 1rem; }
+            margin-top: 1rem;
+            font-size: 1.5rem; }
             .navbutton__background ul li a {
               background-color: #3ab1a2;
               border-radius: 1rem;
@@ -799,9 +800,6 @@ html {
   width: 100vw;
   background-color: #7DD4C9;
   position: relative; }
-  @media (max-width: 37.5em) {
-    .header {
-      height: 160vh; } }
   .header__navbar {
     display: flex;
     background-color: transparent;
