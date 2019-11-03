@@ -398,8 +398,8 @@ $("#ru").click(function(){
   //SIDEBAR ITEMS
   $("#social").html("<a>социальные сети</a>");
   $("#design").html("<a>курс дизайна сайтаs</a>");
-  $("#userinter").html("<a>веб-дизайнn</a>");
-  $("#contact-ons").html("<a>контакт</a>");
+  $("#userinter").html("<a>веб-дизайн</a>");
+  $("#contact-ons").html("<a>контакты</a>");
   $("#ons-projekt").html("<a>проектов</a>");
   $("#onze-info").html("<a>Информация</a>");
 
