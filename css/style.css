@@ -664,9 +664,9 @@ html {
       @media (max-width: 37.5em) {
         .navbutton__background ul {
           align-items: center;
-          margin-top: 9rem;
+          margin-top: 5rem;
           overflow: visible;
-          height: 130vh; } }
+          height: 85vh; } }
       .navbutton__background ul li {
         color: white !important;
         font-size: 2rem;
