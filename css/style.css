@@ -83,6 +83,9 @@ html {
     @media (max-width: 95em) {
       .header__brand {
         font-size: 5rem; } }
+    @media (max-width: 37.5em) {
+      .header__brand {
+        font-size: 2rem; } }
   .header__dropdown {
     font-size: 2rem; }
     .header__dropdown--1 ul {
