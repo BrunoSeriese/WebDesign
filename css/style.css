@@ -169,12 +169,18 @@ html {
     color: white;
     font-weight: bold;
     margin-top: 3rem; }
+    @media (max-width: 37.5em) {
+      .infobox__header {
+        margin-top: 4rem; } }
   .infobox__footer {
     font-size: 1.6rem;
     color: white;
     margin-top: 5rem;
     font-weight: bold;
     letter-spacing: 2px; }
+    @media (max-width: 37.5em) {
+      .infobox__footer {
+        margin-top: 2rem; } }
   .infobox__list {
     margin-top: 6rem;
     list-style: none;
@@ -182,6 +188,10 @@ html {
     color: white;
     font-weight: bold;
     font-size: 1.5rem; }
+    @media (max-width: 37.5em) {
+      .infobox__list {
+        font-size: 1.25rem;
+        margin-top: 2rem; } }
     .infobox__list li hr {
       width: 60%;
       margin-left: auto;
@@ -191,8 +201,14 @@ html {
   .infobox__icon {
     margin-top: 4rem;
     color: white; }
+    @media (max-width: 37.5em) {
+      .infobox__icon {
+        margin-top: 1.5rem; } }
   .infobox__item:not(:last-child) {
     margin-bottom: 2.5rem; }
+    @media (max-width: 37.5em) {
+      .infobox__item:not(:last-child) {
+        margin-bottom: 1rem; } }
 
 .opacity-toggle {
   opacity: 1 !important;
@@ -849,3 +865,11 @@ html {
   @media (max-width: 95em) {
     .infobox {
       display: none; } }
+  @media (max-width: 37.5em) {
+    .infobox {
+      display: inline;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 25rem;
+      height: 35rem; } }
