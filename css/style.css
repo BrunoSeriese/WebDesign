@@ -642,7 +642,8 @@ html {
       @media (max-width: 37.5em) {
         .navbutton__background ul {
           align-items: center;
-          margin-top: 1rem; } }
+          margin-top: 1rem;
+          overflow: visible; } }
       .navbutton__background ul li {
         color: white !important;
         font-size: 2rem;
