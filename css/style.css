@@ -222,6 +222,10 @@ html {
 .help {
   padding: .5rem; }
 
+.active__translation {
+  background-color: #3ab1a2 !important;
+  opacity: 1 !important; }
+
 .popup {
   position: fixed;
   width: 70rem;
@@ -748,12 +752,15 @@ html {
     .language__option--1 {
       border-top-left-radius: 1rem;
       border-bottom-left-radius: 1rem;
-      border-right: 2px solid #3ab1a2; }
+      border-right: 2px solid #3ab1a2;
+      opacity: .999; }
     .language__option--2 {
-      border-right: 2px solid #3ab1a2; }
+      border-right: 2px solid #3ab1a2;
+      opacity: .999; }
     .language__option--3 {
       border-top-right-radius: 1rem;
-      border-bottom-right-radius: 1rem; }
+      border-bottom-right-radius: 1rem;
+      opacity: .999; }
     .language__option:hover {
       background-color: #3ab1a2;
       transition: .2s ease-in; }
