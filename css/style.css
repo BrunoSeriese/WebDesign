@@ -697,10 +697,10 @@ html {
       @media (max-width: 37.5em) {
         .navbutton__background ul {
           align-items: center;
-          margin-top: 6rem;
+          margin-top: 4rem;
           overflow: visible;
           height: 85vh;
-          margin-bottom: 3rem; } }
+          margin-bottom: 5rem; } }
       @media (max-height: 35.5em) {
         .navbutton__background ul {
           transform: scale(0.85) !important; } }
