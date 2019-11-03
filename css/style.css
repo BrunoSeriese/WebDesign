@@ -42,11 +42,9 @@ body {
   overflow: hidden;
   height: 100vh;
   width: 100vw; }
-
-html, body {
-  margin: 0;
-  height: 100%;
-  overflow: hidden; }
+  @media (max-width: 37.5em) {
+    body {
+      height: 160vh; } }
 
 .element::-webkit-scrollbar {
   width: 0 !important; }
@@ -647,7 +645,7 @@ html {
     @media (max-width: 37.5em) {
       .navbutton__background {
         z-index: 999;
-        height: 60vh;
+        height: 150vh;
         width: 100%;
         justify-content: center; } }
     .navbutton__background ul {
@@ -667,7 +665,8 @@ html {
         .navbutton__background ul {
           align-items: center;
           margin-top: 9rem;
-          overflow: visible; } }
+          overflow: visible;
+          height: 130vh; } }
       .navbutton__background ul li {
         color: white !important;
         font-size: 2rem;
@@ -743,7 +742,7 @@ html {
   opacity: 1; }
   @media (max-width: 37.5em) {
     .navtainer {
-      transform: scaleX(25) scaleY(54);
+      transform: scaleX(31) scaleY(84);
       z-index: 10; } }
 
 .language {
