@@ -43,7 +43,7 @@ body {
   width: 100vw; }
   @media (max-width: 37.5em) {
     body {
-      height: 160vh; } }
+      height: 100vh; } }
 
 html, body {
   margin: 0;
