@@ -45,6 +45,11 @@ body {
     body {
       height: 160vh; } }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden; }
+
 .element::-webkit-scrollbar {
   width: 0 !important; }
 
@@ -249,7 +254,7 @@ html {
 
 @media (max-height: 35.5em) {
   .navbutton__icons {
-    transform: scale(0.75) !important;
+    transform: scale(0.9) !important;
     margin-bottom: 0; } }
 
 .popup {
@@ -695,7 +700,7 @@ html {
           margin-top: 6rem;
           overflow: visible;
           height: 85vh;
-          margin-bottom: 9rem; } }
+          margin-bottom: 3rem; } }
       @media (max-height: 35.5em) {
         .navbutton__background ul {
           transform: scale(0.65) !important; } }
