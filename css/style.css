@@ -46,6 +46,11 @@ body {
     body {
       height: 160vh; } }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden; }
+
 .element::-webkit-scrollbar {
   width: 0 !important; }
 
