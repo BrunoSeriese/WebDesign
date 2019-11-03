@@ -666,7 +666,7 @@ html {
       @media (max-width: 37.5em) {
         .navbutton__background ul {
           align-items: center;
-          margin-top: 1rem;
+          margin-top: 9rem;
           overflow: visible; } }
       .navbutton__background ul li {
         color: white !important;
@@ -769,6 +769,7 @@ html {
   @media (max-width: 30.5em) {
     .language {
       left: 50%;
+      padding-bottom: 3rem;
       transform: translate(-50%, 0); } }
   .language__option {
     cursor: pointer;
