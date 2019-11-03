@@ -253,6 +253,11 @@ html {
   background-color: #3ab1a2 !important;
   opacity: 1 !important; }
 
+@media (max-width: 22.5em) {
+  .navbutton__icons {
+    transform: scale(0.75) !important;
+    margin-bottom: 0; } }
+
 .popup {
   position: fixed;
   width: 70rem;
@@ -301,7 +306,7 @@ html {
         .popup__closer--1 {
           padding-left: 23rem;
           display: inline; } }
-      @media (max-width: 25.5em) {
+      @media (max-width: 22.5em) {
         .popup__closer--1 {
           padding-left: 18rem;
           display: inline; } }
@@ -311,7 +316,7 @@ html {
         .popup__closer--2 {
           padding-left: 27rem;
           display: inline; } }
-      @media (max-width: 25.5em) {
+      @media (max-width: 22.5em) {
         .popup__closer--2 {
           padding-left: 22rem;
           display: inline; } }
@@ -321,7 +326,7 @@ html {
         .popup__closer--3 {
           padding-left: 26rem;
           display: inline; } }
-      @media (max-width: 25.5em) {
+      @media (max-width: 22.5em) {
         .popup__closer--3 {
           padding-left: 20rem;
           display: inline; } }
@@ -331,7 +336,7 @@ html {
         .popup__closer--4 {
           padding-left: 40rem;
           display: inline; } }
-      @media (max-width: 25.5em) {
+      @media (max-width: 22.5em) {
         .popup__closer--4 {
           padding-left: 34rem;
           display: inline; } }
@@ -341,7 +346,7 @@ html {
         .popup__closer--6 {
           margin-left: 40rem;
           display: inline; } }
-      @media (max-width: 25.5em) {
+      @media (max-width: 22.5em) {
         .popup__closer--6 {
           padding-left: 30rem;
           display: inline; } }
@@ -684,7 +689,8 @@ html {
       width: 100%;
       text-align: center;
       height: 85vh;
-      overflow: hidden; }
+      overflow: hidden;
+      list-style: none; }
       @media (max-width: 56.25em) {
         .navbutton__background ul {
           margin-top: 2rem;
@@ -696,6 +702,9 @@ html {
           overflow: visible;
           height: 85vh;
           margin-bottom: 9rem; } }
+      @media (max-width: 22.5em) {
+        .navbutton__background ul {
+          transform: scale(0.65) !important; } }
       .navbutton__background ul li {
         color: white !important;
         font-size: 2rem;
@@ -721,6 +730,10 @@ html {
               background-color: #3ab1a2;
               border-radius: 1rem;
               padding: .5rem; } }
+        @media (max-width: 22.5em) {
+          .navbutton__background ul li {
+            padding: .5rem;
+            margin-top: .2rem; } }
         .navbutton__background ul li:hover {
           background-color: #3ab1a2;
           transform: scaleX(1) scaleY(1.05) !important; }
@@ -795,7 +808,7 @@ html {
   @media (max-width: 37.5em) {
     .language {
       left: 31.6rem; } }
-  @media (max-width: 25.5em) {
+  @media (max-width: 22.5em) {
     .language {
       left: 50%;
       padding-bottom: 3rem;
