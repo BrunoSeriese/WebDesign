@@ -799,6 +799,9 @@ html {
   width: 100vw;
   background-color: #7DD4C9;
   position: relative; }
+  @media (max-width: 37.5em) {
+    .header {
+      height: 160vh; } }
   .header__navbar {
     display: flex;
     background-color: transparent;
