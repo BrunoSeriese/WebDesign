@@ -284,7 +284,7 @@ html {
   @media (max-width: 37.5em) {
     .popup {
       width: 90vw;
-      height: 90vh;
+      height: 70vh;
       transform: translate(-50%, -50%);
       z-index: 99;
       display: none; } }
@@ -633,7 +633,7 @@ html {
   z-index: 3;
   display: flex;
   flex-direction: column;
-  transition: .2s  ease-in;
+  transition: .2s ease-in;
   cursor: pointer;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); }
   @media (max-width: 37.5em) {
@@ -704,6 +704,11 @@ html {
       @media (max-height: 35.5em) {
         .navbutton__background ul {
           transform: scale(0.85) !important; } }
+      @media (max-height: 50.5em) {
+        .navbutton__background ul {
+          transform: scale(0.88) !important;
+          height: 95vh;
+          overflow: visible; } }
       .navbutton__background ul li {
         color: white !important;
         font-size: 2rem;
@@ -736,6 +741,13 @@ html {
         .navbutton__background ul li:hover {
           background-color: #3ab1a2;
           transform: scaleX(1) scaleY(1.05) !important; }
+          @media (max-height: 50.5em) {
+            .navbutton__background ul li:hover {
+              transform: scaleX(1.078) scaleY(1.05) translateX(-0.8rem) !important; } }
+          @media (max-width: 37.5em) {
+            .navbutton__background ul li:hover {
+              background-color: #57c7b9;
+              transform: none; } }
   .navbutton:hover {
     transform: scale(1.15);
     box-shadow: 0 0.8rem 1.2rem rgba(0, 0, 0, 0.1); }
