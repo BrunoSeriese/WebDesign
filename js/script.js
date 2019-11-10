@@ -303,6 +303,10 @@ $("#nl").click(function () {
 
 
   //POPUP SIX
+
+  $(".popup--6__translate--secret").text("Professioneel Web-Designer/Developer");
+
+
   $(".popup--6__translate--1").text("HTML CSS en JavaScript");
   $(".popup--6__translate--2").text("Backend met NodeJS");
   $(".popup--6__translate--3").text("MongoDB databases");
@@ -358,6 +362,9 @@ $("#en").click(function () {
   $(".popup--3__footer").text("Contact us for an intake!");
 
   //POPUP SIX
+
+  $(".popup--6__translate--secret").text("Professional Web-Designer/Developer");
+
   $(".popup--6__translate--1").text("HTML CSS and JavaScript");
   $(".popup--6__translate--2").text("Backend with NodeJS");
   $(".popup--6__translate--3").text("MongoDB databases");
@@ -422,6 +429,9 @@ $("#ru").click(function () {
 
 
   //POPUP SIX
+
+  $(".popup--6__translate--secret").text("Профессиональный Веб-Дизайнер / Разработчик");
+
   $(".popup--6__translate--1").text("HTML CSS а также JavaScript");
   $(".popup--6__translate--2").text("Backend с NodeJS");
   $(".popup--6__translate--3").text("MongoDB databases");
